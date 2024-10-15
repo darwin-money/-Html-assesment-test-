@@ -4,21 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> My portfolio </title>
-    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- header -->
-     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-     </header>
+     <header>      
+            <h1 class="navbar">
+                <a class="navbar" href="#home">Home</a></li>
+               <a class="navbar" href="#about">About</a></li>
+                <a class="navbar" href="#work">Work</a></li>
+                <a class="navbar" href="#resume">Resume</a></li>
+                <a class="navbar" href="#contact">Contact</a></li>
+            </h1>
+         </header>
 
      <!-- main -->
       <main>
@@ -74,12 +72,16 @@
                 <label for="Email">Email
                     <input type="email" placeholder="someone@example.com">
                 </label>
+                <label for="password">password
+                    <input type="password" placeholder="password">
+                </label >
+              <input id="button" type="button" value="Register">
             </form>
           </section>
       </main>
       <!-- footer -->
       
-        <footer>
+      <footer id="copy">
          <a href="https://www.tiktok.com/search?q=trendwanderer1" target="_blank">
             <img src=" https://th.bing.com/th/id/R.475fcc42b5f26e17b62e120fb65e394a?rik=XZx4MDoM1Cl1NQ&pid=ImgRaw&r=0" alt="TikTok" style="width: 40px; height: 40px;">
         </a>        
@@ -87,5 +89,9 @@
             <img src="https://img.icons8.com/?size=100&id=AltfLkFSP7XN&format=png&color=000000" alt="WhatsApp" style="width: 40px; height: 40px;">
         </a>
     </footer>
+    <!-- copyright -->
+     <footer>
+   <p>&copy;2024 Gomycode super skill</p> 
+</footer>
 </body>
 </html>
